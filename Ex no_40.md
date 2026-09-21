@@ -129,3 +129,6 @@ int main()
 ## Output
 
 <img width="297" height="253" alt="Screenshot 2026-03-19 191355" src="https://github.com/user-attachments/assets/dde2a44c-6289-4708-a452-84aaaad85ec2" />
+
+## RESULT:
+Thus, the program is executed and verified successfully.
