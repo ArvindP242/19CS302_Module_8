@@ -25,35 +25,40 @@ forty one
 ## Program
 
 ```
+#include <stdio.h>
 
-#include<stdio.h>
-int main()
-{
+int main() {
     int n;
-    scanf("%d",&n);
-    if(n==71)
-    printf("seventy one\n");
-    else if(n==72)
-    printf("seventy two\n");
-    else if(n==73)
-    printf("seventy three\n");
-    else if(n==74)
-    printf("seventy four\n");
-    else if(n==75)
-    printf("seventy five\n");
-    else if(n==76)
-    printf("seventy six\n");
-    else if(n==77)
-    printf("seventy seven\n");
-    else if(n==78)
-    printf("seventy eight\n");
-    else if(n==79)
-    printf("seventy nine\n");
-    else 
-    printf("Greater than 79\n");
+    scanf("%d", &n);
+
+    if (n >= 41 && n <= 49)
+  {
+        printf("forty ");
+        switch(n)
+       {
+            case 41: printf("one\n"); break;
+            case 42: printf("two\n"); break;
+            case 43: printf("three\n"); break;
+            case 44: printf("four\n"); break;
+            case 45: printf("five\n"); break;
+            case 46: printf("six\n"); break;
+            case 47: printf("seven\n"); break;
+            case 48: printf("eight\n"); break;
+            case 49: printf("nine\n"); break;
+        }
+    }
+    else if (n > 49)
+    {
+        printf("Greater than 49\n");
+    }
+    return 0;
 }
+
 
 ```
 ## Output
 
-<img width="408" height="194" alt="Screenshot 2026-03-19 190848" src="https://github.com/user-attachments/assets/904bcf28-79ad-4af4-abca-fd85422dd174" />
+<img width="592" height="301" alt="image" src="https://github.com/user-attachments/assets/f5c0cce3-4858-4a6a-963f-d900962a333f" />
+
+## RESULT:
+Thus, the program is executed and verified successfully.
